@@ -1,0 +1,51 @@
+id_evento,nombre,categoria,fecha,descripcion
+1,Concierto de Rock,Música,2024-06-10,Concierto con las mejores bandas de rock universitarias.
+2,Conferencia de Inteligencia Artificial,STEM,2024-06-12,Charlas sobre los últimos avances en inteligencia artificial.
+3,Taller de Pintura,Talleres,2024-06-15,Taller de pintura para todos los niveles.
+4,Sesión de Cine al Aire Libre,Cine,2024-06-18,Proyección de películas clásicas en el campus.
+5,Torneo de Baloncesto,Deportes,2024-06-20,Competencia entre equipos universitarios.
+6,Feria de Literatura,Literatura,2024-06-22,Presentación de libros y charlas con autores.
+7,Conferencia de Economía,Economía,2024-06-24,Discusión sobre temas económicos actuales.
+8,Teatro Universitario,Teatro,2024-06-26,Obra de teatro interpretada por estudiantes.
+9,Seminario de Salud Mental,Salud Mental,2024-06-28,Talleres y charlas sobre bienestar mental.
+10,Concierto de Jazz,Música,2024-07-02,Presentación de grupos de jazz locales.
+11,Taller de Emprendimiento,Empresas,2024-07-04,Taller sobre cómo iniciar y gestionar una empresa.
+12,Feria de Ciencias,Ciencia,2024-07-06,Exhibición de proyectos científicos de estudiantes.
+13,Concurso de Canto,Canto,2024-07-08,Competencia de canto para estudiantes.
+14,Maratón de Programación,Tecnología,2024-07-10,Competencia de programación para equipos universitarios.
+15,Torneo Interno de Voleibol,Deportes,2024-07-12,Competencia interna de equipos de voleibol.
+16,Sinergia,Empresas,2024-07-14,Evento de networking y colaboración empresarial.
+17,Duatlón,Deportes,2024-07-16,Competencia combinada de ciclismo y carrera.
+18,Taller de Crochet,Talleres,2024-07-18,Taller para aprender técnicas básicas de crochet.
+19,Reto Fit,Deportes,2024-07-20,Competencia de fitness y resistencia.
+20,Jornada de Nutrición,Salud Mental,2024-07-22,Charlas y talleres sobre alimentación saludable.
+21,Jornada de Donación de Sangre,Otros,2024-07-24,Campaña de donación de sangre abierta a toda la comunidad.
+22,Concierto Grupo Samán Ensamble,Música,2024-07-26,Presentación del grupo Samán Ensamble.
+23,Concierto Grupo Son Cubano,Música,2024-07-28,Presentación de música cubana con el grupo Son Cubano.
+24,Lunada de Yoga,Salud Mental,2024-07-30,Sesión nocturna de yoga al aire libre.
+25,Exposición de Artes Plásticas y Fotografía,Pintura,2024-08-02,Exhibición de obras de artes plásticas y fotografía.
+26,Cuerpos en Movimiento,Teatro,2024-08-04,Performance interdisciplinario de danza y teatro.
+27,Festival de Bandas,Música,2024-08-06,Competencia y festival de bandas universitarias.
+28,Feria Empresarial,Empresas,2024-08-08,Feria con stands de empresas y charlas de negocios.
+29,Clase Magistral de Guitarra,Música,2024-08-10,Clase magistral impartida por guitarristas profesionales.
+30,Simposio de Innovación,STEM,2024-08-12,Simposio sobre innovación tecnológica y científica.
+31,Taller de Cerámica,Talleres,2024-08-14,Taller práctico de cerámica.
+32,Cine Foro,Cine,2024-08-16,Foro de discusión sobre películas contemporáneas.
+33,Campeonato de Atletismo,Deportes,2024-08-18,Competencia de atletismo para estudiantes.
+34,Recital de Poesía,Literatura,2024-08-20,Recital de poesía con participación abierta.
+35,Conferencia de Comercio Internacional,Economía,2024-08-22,Charlas sobre las tendencias del comercio internacional.
+36,Festival de Teatro,Teatro,2024-08-24,Festival de obras de teatro presentadas por estudiantes.
+37,Taller de Mindfulness,Salud Mental,2024-08-26,Taller sobre técnicas de mindfulness y meditación.
+38,Concierto de Música Clásica,Música,2024-08-28,Presentación de obras de música clásica.
+39,Taller de Finanzas Personales,Empresas,2024-08-30,Taller sobre gestión financiera personal.
+40,Feria de Proyectos STEM,Ciencia,2024-09-02,Exhibición de proyectos STEM desarrollados por estudiantes.
+41,Karaoke Universitario,Canto,2024-09-04,Evento de karaoke abierto para todos los estudiantes.
+42,Hackathon,Tecnología,2024-09-06,Competencia intensiva de desarrollo de software.
+43,Torneo de Ajedrez,Deportes,2024-09-08,Competencia de ajedrez entre estudiantes.
+44,Networking Empresarial,Empresas,2024-09-10,Evento para hacer contactos en el mundo empresarial.
+45,Taller de Fotografía,Talleres,2024-09-12,Taller para aprender técnicas de fotografía.
+46,Jornadas de Bienestar,Salud Mental,2024-09-14,Actividades y charlas para el bienestar integral.
+47,Gala de Danza Contemporánea,Teatro,2024-09-16,Presentación de danza contemporánea.
+48,Exposición de Proyectos de Ingeniería,STEM,2024-09-18,Exhibición de proyectos de ingeniería de estudiantes.
+49,Festival de Comida Internacional,Otros,2024-09-20,Festival con comida de diferentes países.
+50,Presentación de Circo,Teatro,2024-09-22,Espectáculo de circo con actuaciones de estudiantes.

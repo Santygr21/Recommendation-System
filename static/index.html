@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation System</title>
+    <!-- Agrega tus estilos CSS aquí -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="data-filter">
+        <h2>User Information</h2>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" placeholder="Enter your name">
+
+        <label for="neighbor-input">Number of Neighbors:</label>
+        <div class="number-input">
+            <button onclick="decreaseValue()">-</button>
+            <input type="number" id="neighbor-input" value="5">
+            <button onclick="increaseValue()">+</button>
+        </div>
+
+        <label for="amount-input">Number of Events:</label>
+        <div class="number-input">
+            <button onclick="decreaseValue2()">-</button>
+            <input type="number" id="amount-input" value="10">
+            <button onclick="increaseValue2()">+</button>
+        </div>
+
+        <label for="aggregation-dropdown">Aggregation Method:</label>
+        <select id="aggregation-dropdown">
+            <option value="maximo">Max</option>
+            <option value="minimo">Min</option>
+            <option value="promedio">Average</option>
+            <option value="desviacion">Standard Deviation</option>
+        </select>
+
+        <button id="recommendation-btn">Get Recommendations</button>
+    </div>
+
+    <div class="data-container" style="display: none;">
+        <button onclick="backPage()">Back</button>
+        <h2>Recommended Events and Users</h2>
+
+        <div id="cards-neighbors" class="cards"></div>
+        <div id="cards-events" class="cards"></div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
