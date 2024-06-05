@@ -1,4 +1,4 @@
-id_evento,nombre,categoria,fecha,descripcion
+nombre,id_evento,categoria,fecha,descripcion
 1,Concierto de Rock,Música,2024-06-10,Concierto con las mejores bandas de rock universitarias.
 2,Conferencia de Inteligencia Artificial,STEM,2024-06-12,Charlas sobre los últimos avances en inteligencia artificial.
 3,Taller de Pintura,Talleres,2024-06-15,Taller de pintura para todos los niveles.

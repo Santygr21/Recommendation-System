@@ -86,6 +86,10 @@ const postEndpoint = async (request) => {
             eventsHTML += `<div class="event">
                                 <p>${event[0]}</p>
                                 <p>${event[1]}</p>
+                                <p>${event[2]}</p>
+                                <p>${event[3]}</p>
+                                <p>${event[4]}</p>
+                                <p>${event[5]}</p>
                            </div>`;
         });
 
@@ -115,5 +119,6 @@ function backPage() {
     const screen1 = document.querySelector('.data-filter');
     const screen2 = document.querySelector('.data-container');
 
-    screen1.style.display = ""
+    screen1.style.display = "block"
+    screen2.style.display = "none"
 }
