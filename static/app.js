@@ -2,6 +2,10 @@ const DOMAIN = 'http://localhost:';
 const PORT = 5001;
 const POST_ROUTE = 'user-data';
 
+document.addEventListener('DOMContentLoaded', async () => {
+    await populateUserDropdown();
+});
+
 const recommendationBtn = document.getElementById('recommendation-btn');
 
 recommendationBtn.addEventListener('click', async () => sendRequest());
@@ -35,7 +39,7 @@ function increaseValue2() {
 }
 
 const sendRequest = async () => {
-    const name = document.getElementById('name-input').value;
+    const name = document.getElementById('name-dropdown').value;
     const numberOfNeighbors = parseInt(document.getElementById('neighbor-input').value);
     const numberOfEvents = parseInt(document.getElementById('amount-input').value);
     const aggregationMethod = document.getElementById('aggregation-dropdown').value;
@@ -88,8 +92,6 @@ const postEndpoint = async (request) => {
                                 <p>${event[1]}</p>
                                 <p>${event[2]}</p>
                                 <p>${event[3]}</p>
-                                <p>${event[4]}</p>
-                                <p>${event[5]}</p>
                            </div>`;
         });
 
@@ -99,7 +101,32 @@ const postEndpoint = async (request) => {
         toggleScreens();
 
     } catch (error) {
-        console.log(error);    }
+        console.log(error);
+    }
+};
+
+const populateUserDropdown = async () => {
+    const dropdown = document.getElementById('name-dropdown');
+
+    try {
+        const response = await fetch(`${DOMAIN}${PORT}/list-users`);
+        const data = await response.json();
+
+        if (data.error) {
+            console.error(data.error);
+            return;
+        }
+
+        const users = data.usuarios;
+        users.forEach(user => {
+            const option = document.createElement('option');
+            option.text = user;
+            option.value = user;
+            dropdown.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error fetching users:', error);
+    }
 };
 
 function toggleScreens() {

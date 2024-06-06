@@ -10,6 +10,16 @@ from flask import send_from_directory
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/list-users', methods=['GET'])
+def list_users():
+    df_usuarios = importar_base_datos('./dataBases/Base_usuarios.csv')
+    if df_usuarios is None:
+        return jsonify({'error': 'Base de datos de usuarios no encontrada'}), 400
+    
+    nombres_usuarios = df_usuarios.index.tolist()
+    return jsonify({'usuarios': nombres_usuarios})
+
+
 @app.route('/static/<path:path>')
 def serve_static(path):
     return send_from_directory('static', path)

@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recommendation System</title>
     <!-- Agrega tus estilos CSS aquí -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/static/styles.css">
 </head>
 <body>
     <div class="data-filter">
         <h2>User Information</h2>
-        <label for="name-input">Name:</label>
-        <input type="text" id="name-input" placeholder="Enter your name">
+        <label for="name-dropdown">Select a User:</label>
+        <select id="name-dropdown">
+            <option value="">Select User</option>
+        </select>
 
         <label for="neighbor-input">Number of Neighbors:</label>
         <div class="number-input">
