@@ -1,3 +1,4 @@
+// En app.js
 const DOMAIN = 'http://localhost:';
 const PORT = 5001;
 const POST_ROUTE = 'user-data';
@@ -88,10 +89,10 @@ const postEndpoint = async (request) => {
 
         response.resultados.forEach(event => {
             eventsHTML += `<div class="event">
-                                <p>${event[0]}</p>
-                                <p>${event[1]}</p>
-                                <p>${event[2]}</p>
-                                <p>${event[3]}</p>
+                                <p><strong>Event: </strong>${event[0]}</p>
+                                <p><strong>Category:</strong>${event[1]}</p>
+                                <p><strong>Date: </strong>${event[2]}</p>
+                                <p><strong>Description: </strong>${event[3]}</p>
                            </div>`;
         });
 

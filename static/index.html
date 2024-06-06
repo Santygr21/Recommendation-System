@@ -16,17 +16,15 @@
     <div class="Clogo"><img class="logo" src="./img/logo white.svg" alt=""></div>
 
     <div class="data-filter">
-        
         <div class="tittle"><h2>User Information</h2></div>
 
         <section class="arreglo1">
-        <label for="name-dropdown">Select a User:</label>
-        <select id="name-dropdown">
-            <option value="">Select User</option>
-        </select>
+            <label for="name-dropdown">Select a User:</label>
+            <select id="name-dropdown">
+                <option value="">Select User</option>
+            </select>
         </section>
 
-        
         <section class="arreglo2">
             <div class="counter">
                 <label for="neighbor-input">Number of Neighbors:</label>
@@ -45,28 +43,28 @@
                     <button onclick="increaseValue2()">+</button>
                 </div>
             </div>
-            
         </section>
 
         <section class="arreglo1">
-        <label for="aggregation-dropdown">Aggregation Method:</label>
-        <select id="aggregation-dropdown">
-            <option value="maximo">Max</option>
-            <option value="minimo">Min</option>
-            <option value="promedio">Average</option>
-            <option value="desviacion">Standard Deviation</option>
-        </select>
+            <label for="aggregation-dropdown">Aggregation Method:</label>
+            <select id="aggregation-dropdown">
+                <option value="maximo">Max</option>
+                <option value="minimo">Min</option>
+                <option value="promedio">Average</option>
+                <option value="desviacion">Standard Deviation</option>
+            </select>
         </section>
 
-        <button id="recommendation-btn">Get Recommendations</button>
+        <button class="recommendation-btn" id="recommendation-btn">Get Recommendations</button>
     </div>
 
     <div class="data-container" style="display: none;">
-        <button onclick="backPage()">Back</button>
-        <h2>Recommended Events and Users</h2>
-
-        <div id="cards-neighbors" class="cards"></div>
-        <div id="cards-events" class="cards"></div>
+        <section class="arreglos">
+            <button onclick="backPage()">Back</button>
+            <h2>Recommended Events and Users</h2>
+            <div id="cards-neighbors" class="cards"></div>
+            <div id="cards-events" class="cards"></div>
+        </section>
     </div>
 
     <script src="./app.js"></script>

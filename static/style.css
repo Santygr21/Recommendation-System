@@ -1,6 +1,8 @@
-*{
-    background-color: #1C1C1C;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body{
     color: #ffffff;
+    background-image: url("./img/Fondito.svg");
 }
 
 .logo{
@@ -15,21 +17,26 @@
 }
 
 .data-filter{
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin: 50px auto;
     width: 500px;
-    height: 325px;
+    height: auto;
     background-color: #5D31FF;
+    -webkit-box-shadow: 0px 0px 90px 0px rgba(93,49,255,0.5);
+    -moz-box-shadow: 0px 0px 90px 0px rgba(93,49,255,0.5);
+    box-shadow: 0px 0px 90px 0px rgba(93,49,255,0.5);
 }
 
 .tittle{
     width: 450px;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: center;
+    margin-left: 5%;
+    font-family: "League Spartan";
 }
 
 .tittle h2{
@@ -59,6 +66,8 @@
     border-radius: 10px;
     border-style: solid;
     border-color: #ffffff;
+    background-color: #ffffff;
+    color: #5D31FF;
 }
 
 label{
@@ -81,8 +90,9 @@ label{
 .counter input{
     text-align: center;
     border-radius: 10px;
-    border-style: solid;
-    border-color: #ffffff;
+    border-style: none;
+    background-color: #ffffff;
+    color: #5D31FF;
 }
 
 .counter button{
@@ -90,15 +100,66 @@ label{
     width: 20px;
     height: 20px;
     border-radius: 10px;
-    border-style: solid;
-    border-color: #ffffff;
+    border-style: none;
+    background-color: #ffffff;
+    color: #5D31FF;
 }
 
-#recommendation-btn{
+.recommendation-btn{
     width: 500px;
-    height: 40px;
+    padding: 10px;
     border-radius: 10px;
-    border-style: solid;
-    border-color: #ffffff;
+    border-style: none;
+    background-color: #ffffff;
+    color: #5D31FF;
     margin-top: 15px;
+    font-family: "League Spartan";
+}
+
+.recommendation-btn:hover{
+    background-color: #321a88;
+    color: #fff;
+    transition: 1.01s;
+}
+
+.data-container{
+    width: 100vw;
+}
+
+.arreglos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arreglos button{
+    height: 40px;
+    width: 450px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #ffffff;
+    color: #5D31FF;
+}
+
+.neighbor{
+    background-color: #1C1C1C;
+}
+
+.event{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px; 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border-style: none;
+    border-radius: 5px; 
+    background-color: #5D31FF;
+    -webkit-box-shadow: 0px 0px 90px 0px rgba(93,49,255,0.5);
+    -moz-box-shadow: 0px 0px 90px 0px rgba(93,49,255,0.5);
+    box-shadow: 0px 0px 90px 0px rgba(93,49,255,0.5);
+}
+
+.event *{
+    background-color: #5D31FF;
 }
