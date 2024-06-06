@@ -92,7 +92,6 @@ def obtener_recomendaciones_diferentes_categorias(df_eventos, categorias_cumplen
             evento_recomendado = eventos_categoria.sample()
             eventos_recomendados.append(evento_recomendado)
     
-    # Si no se encontraron eventos para todas las categorías, puedes llenar con eventos adicionales de otras categorías.
     while len(eventos_recomendados) < N:
         evento_adicional = df_eventos.sample()
         eventos_recomendados.append(evento_adicional)

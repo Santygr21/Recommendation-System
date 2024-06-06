@@ -1,4 +1,3 @@
-// En app.js
 const DOMAIN = 'http://localhost:';
 const PORT = 5001;
 const POST_ROUTE = 'user-data';
