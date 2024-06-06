@@ -16,26 +16,39 @@
     <div class="Clogo"><img class="logo" src="./img/logo white.svg" alt=""></div>
 
     <div class="data-filter">
-        <h2>User Information</h2>
+        
+        <div class="tittle"><h2>User Information</h2></div>
+
+        <section class="arreglo1">
         <label for="name-dropdown">Select a User:</label>
         <select id="name-dropdown">
             <option value="">Select User</option>
         </select>
+        </section>
 
-        <label for="neighbor-input">Number of Neighbors:</label>
-        <div class="number-input">
-            <button onclick="decreaseValue()">-</button>
-            <input type="number" id="neighbor-input" value="5">
-            <button onclick="increaseValue()">+</button>
-        </div>
+        
+        <section class="arreglo2">
+            <div class="counter">
+                <label for="neighbor-input">Number of Neighbors:</label>
+                <div class="number-input">
+                    <button onclick="decreaseValue()">-</button>
+                    <input type="number" id="neighbor-input" value="5">
+                    <button onclick="increaseValue()">+</button>
+                </div>
+            </div>
 
-        <label for="amount-input">Number of Events:</label>
-        <div class="number-input">
-            <button onclick="decreaseValue2()">-</button>
-            <input type="number" id="amount-input" value="10">
-            <button onclick="increaseValue2()">+</button>
-        </div>
+            <div class="counter"> 
+                <label for="amount-input">Number of Events:</label>
+                <div class="number-input">
+                    <button onclick="decreaseValue2()">-</button>
+                    <input type="number" id="amount-input" value="10">
+                    <button onclick="increaseValue2()">+</button>
+                </div>
+            </div>
+            
+        </section>
 
+        <section class="arreglo1">
         <label for="aggregation-dropdown">Aggregation Method:</label>
         <select id="aggregation-dropdown">
             <option value="maximo">Max</option>
@@ -43,6 +56,7 @@
             <option value="promedio">Average</option>
             <option value="desviacion">Standard Deviation</option>
         </select>
+        </section>
 
         <button id="recommendation-btn">Get Recommendations</button>
     </div>
